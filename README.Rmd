@@ -75,16 +75,18 @@ dplyr::mutate(
 ## Scripts utilizados em aula
 
 ```{r}
-pasta <- "exemplos_de_aula/"
+pasta <- "pratica/"
 
 
 knitr::kable(
   tibble::tibble(
-    script = CursoRopen:::list_github_files(params$main_repo, pasta, ".R$"),
+    script = list.files(pasta),
     link = paste0(
-      "https://github.com/curso-r/",
+      "https://raw.githubusercontent.com/curso-r/",
       params$turma,
-      "/blob/master/",
+      "/main/",
+      pasta,
+      "/",
       script
     )
   ) %>%
@@ -92,41 +94,6 @@ knitr::kable(
     dplyr::select(script)
 )
 ```
-
-
-## Lição de casa
-
-```{r}
-tibble::tibble(
-  nome = CursoRopen:::list_github_files(params$main_repo, "exercicios/"),
-  link = paste0("https://curso-r.github.io/", params$main_repo, "/", nome),
-  exercicio = glue::glue("[{nome}]({link})")
-) %>%
-    dplyr::filter(!stringr::str_detect(nome, "resolucao_")) %>% 
-  dplyr::select(exercicio) %>% 
-  knitr::kable()
-```
-
-
-## Trabalhos finais premiados
-
-```{r echo=FALSE}
-nome_pasta <- "trabalhos_premiados"
-
-tibble::tibble(
-  script = CursoRopen:::list_github_files(params$turma, nome_pasta, ".zip|.rar"),
-  link = paste0(
-    "https://github.com/curso-r/",
-    params$turma,
-    "/raw/master/",
-    script
-  ),
-  pasta_compactada = glue::glue("[{script}]({link})")
-) %>% 
-  dplyr::select(pasta_compactada) %>% 
-  knitr::kable()
-```
-
 
 
 ## Material extra
