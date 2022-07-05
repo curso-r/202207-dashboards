@@ -34,8 +34,12 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| script |
-|:-------|
+| script                                                                                                                         |
+|:-------------------------------------------------------------------------------------------------------------------------------|
+| [01-ola-mundo.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//01-ola-mundo.R)                     |
+| [02-output.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//02-output.R)                           |
+| [03-output-input.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//03-output-input.R)               |
+| [04-dois-inputs-outputs.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//04-dois-inputs-outputs.R) |
 
 ## Material extra
 
