@@ -1,0 +1,14 @@
+name: pratica
+title: pratica
+username:
+account: acursor
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6608796
+bundleId: 6079940
+url: https://acursor.shinyapps.io/pratica/
+when: 1657232323.44795
+lastSyncTime: 1657232323.44795
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: 01-ola-mundo.R|02-output.R|03-output-input.R

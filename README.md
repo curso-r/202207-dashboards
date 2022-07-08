@@ -34,12 +34,17 @@ Fora do horário de aula ou monitoria:
 
 ## Scripts utilizados em aula
 
-| script                                                                                                                         |
-|:-------------------------------------------------------------------------------------------------------------------------------|
-| [01-ola-mundo.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//01-ola-mundo.R)                     |
-| [02-output.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//02-output.R)                           |
-| [03-output-input.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//03-output-input.R)               |
-| [04-dois-inputs-outputs.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//04-dois-inputs-outputs.R) |
+| script                                                                                                                           |
+|:---------------------------------------------------------------------------------------------------------------------------------|
+| [01-ola-mundo.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//01-ola-mundo.R)                       |
+| [02-output.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//02-output.R)                             |
+| [03-output-input.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//03-output-input.R)                 |
+| [04-dois-inputs-outputs.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//04-dois-inputs-outputs.R)   |
+| [05-amostra-sem-reactive.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//05-amostra-sem-reactive.R) |
+| [06-amostra-com-reactive.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//06-amostra-com-reactive.R) |
+| [07-disparo-reatividade.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//07-disparo-reatividade.R)   |
+| [08-eventReactive.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//08-eventReactive.R)               |
+| [09-debug.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//09-debug.R)                               |
 
 ## Material extra
 
@@ -47,8 +52,19 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais
 que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
-| Aula | Tema | Descrição |
-|:-----|:-----|:----------|
+| Aula | Tema           | Descrição                                                                                         |
+|-----:|:---------------|:--------------------------------------------------------------------------------------------------|
+|    1 | Shiny          | [Galeria de inputs/widgets](https://shiny.rstudio.com/gallery/widget-gallery.html)                |
+|    2 | Reatividade    | [Pacote reactlog](https://rstudio.github.io/reactlog/)                                            |
+|   NA | Conteúdo extra | [Caixas de diálogo no Shiny](https://shiny.rstudio.com/articles/modal-dialogs.html)               |
+|   NA | Pacote         | [Pacote fresh](https://github.com/dreamRs/fresh)                                                  |
+|   NA | Vídeo          | [Vídeo: Shinydashboard, pacote fresh e CSS](https://www.youtube.com/watch?v=s9GKim52E4k)          |
+|   NA | Vídeo          | [Live sobre módulos](https://www.youtube.com/watch?v=xp5aMvwqEMY&ab_channel=Curso-R)              |
+|   NA | Pacote         | [Shiny loaders](https://github.com/daattali/shinycssloaders)                                      |
+|   NA | Livro          | [Engineering Shiny (livro)](https://engineering-shiny.org/)                                       |
+|   NA | Post           | [Environments no R](https://blog.curso-r.com/posts/2017-06-19-environments)                       |
+|   NA | Conteúdo extra | [Criando inputs customizados (avançado)](https://shiny.rstudio.com/articles/building-inputs.html) |
+|   NA | Conteúdo extra | [Fazendo Gauges (clicar em \</\> Source Code)](https://gallery.shinyapps.io/cran-gauge/)          |
 
 ## Redes sociais da Curso-R
 
