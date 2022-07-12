@@ -1,5 +1,7 @@
 library(shiny)
 
+# importacao
+
 ui <- fluidPage(
   h1("Formulário"),
   textInput(
@@ -24,7 +26,10 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
 
+  #importacao
+
   tabela_com_dados_envidados <- eventReactive(input$enviar, {
+    # importacao
     tibble::tibble(
       nome = input$nome,
       idade = input$idade,
