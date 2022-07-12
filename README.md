@@ -45,6 +45,9 @@ Fora do horário de aula ou monitoria:
 | [07-disparo-reatividade.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//07-disparo-reatividade.R)   |
 | [08-eventReactive.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//08-eventReactive.R)               |
 | [09-debug.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//09-debug.R)                               |
+| [10-dados.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//10-dados.R)                               |
+| [12-gridsystem.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//12-gridsystem.R)                     |
+| [13-sidebarlayout.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//13-sidebarlayout.R)               |
 
 ## Material extra
 
@@ -52,19 +55,15 @@ Referências extras relacionadas com o conteúdos das aulas, ou materiais
 que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
-| Aula | Tema           | Descrição                                                                                         |
-|-----:|:---------------|:--------------------------------------------------------------------------------------------------|
-|    1 | Shiny          | [Galeria de inputs/widgets](https://shiny.rstudio.com/gallery/widget-gallery.html)                |
-|    2 | Reatividade    | [Pacote reactlog](https://rstudio.github.io/reactlog/)                                            |
-|   NA | Conteúdo extra | [Caixas de diálogo no Shiny](https://shiny.rstudio.com/articles/modal-dialogs.html)               |
-|   NA | Pacote         | [Pacote fresh](https://github.com/dreamRs/fresh)                                                  |
-|   NA | Vídeo          | [Vídeo: Shinydashboard, pacote fresh e CSS](https://www.youtube.com/watch?v=s9GKim52E4k)          |
-|   NA | Vídeo          | [Live sobre módulos](https://www.youtube.com/watch?v=xp5aMvwqEMY&ab_channel=Curso-R)              |
-|   NA | Pacote         | [Shiny loaders](https://github.com/daattali/shinycssloaders)                                      |
-|   NA | Livro          | [Engineering Shiny (livro)](https://engineering-shiny.org/)                                       |
-|   NA | Post           | [Environments no R](https://blog.curso-r.com/posts/2017-06-19-environments)                       |
-|   NA | Conteúdo extra | [Criando inputs customizados (avançado)](https://shiny.rstudio.com/articles/building-inputs.html) |
-|   NA | Conteúdo extra | [Fazendo Gauges (clicar em \</\> Source Code)](https://gallery.shinyapps.io/cran-gauge/)          |
+| Aula | Tema           | Descrição                                                                                                             |
+|-----:|:---------------|:----------------------------------------------------------------------------------------------------------------------|
+|    1 | Shiny          | [Galeria de inputs/widgets](https://shiny.rstudio.com/gallery/widget-gallery.html)                                    |
+|    2 | Reatividade    | [Pacote reactlog](https://rstudio.github.io/reactlog/)                                                                |
+|    3 | Bases de dados | [Pacote dbplyr - trabalhar com banco de dados](https://dbplyr.tidyverse.org/)                                         |
+|    3 | Extra/dúvidas  | [Pacote geobr](https://github.com/ipeaGIT/geobr)                                                                      |
+|    3 | Importação     | [Pacote here - pacote para lidar com caminhos](https://here.r-lib.org/)                                               |
+|    3 | Importação     | [Pacote googlesheets4 - importar dados do Google Planilhas](https://blog.curso-r.com/posts/2022-03-08-googlesheets4/) |
+|    3 | Layout         | [Site com conteúdo sobre HTML e CSS](https://www.w3schools.com/)                                                      |
 
 ## Redes sociais da Curso-R
 
