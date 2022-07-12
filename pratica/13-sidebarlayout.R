@@ -2,8 +2,6 @@ library(shiny)
 
 dados <- readr::read_rds(here::here("dados/pkmn.rds"))
 
-
-
 ui <- fluidPage(
   titlePanel("Shiny de Pokemons!"),
   sidebarLayout(
