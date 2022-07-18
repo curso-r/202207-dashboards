@@ -46,6 +46,7 @@ Fora do horário de aula ou monitoria:
 | [08-eventReactive.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//08-eventReactive.R)                       |
 | [09-debug.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//09-debug.R)                                       |
 | [10-dados.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//10-dados.R)                                       |
+| [11-tags-html.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//11-tags-html.R)                               |
 | [12-gridsystem.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//12-gridsystem.R)                             |
 | [13-sidebarlayout.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//13-sidebarlayout.R)                       |
 | [14-navbarPage.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//14-navbarPage.R)                             |
