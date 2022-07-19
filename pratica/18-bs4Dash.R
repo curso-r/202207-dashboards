@@ -1,5 +1,5 @@
 library(shiny)
-library(shinydashboard)
+library(bs4Dash)
 library(dplyr)
 library(ggplot2)
 
@@ -137,7 +137,7 @@ server <- function(input, output, session) {
       value = num,
       subtitle = "Número de clientes",
       icon = icon("user-friends"),
-      color = "aqua"
+      color = "lightblue"
     )
 
   })
@@ -155,7 +155,7 @@ server <- function(input, output, session) {
       value = prop,
       subtitle = "Porcentagem de clientes bons",
       icon = icon("thumbs-up"),
-      color = "green"
+      color = "success"
     )
 
   })
@@ -252,7 +252,7 @@ server <- function(input, output, session) {
       title = "Valor de empréstimo solicitado médio",
       value = valor,
       icon = icon("dollar-sign"),
-      color = "green",
+      color = "success",
       fill = TRUE
     )
 
@@ -281,61 +281,3 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
-
-
-# Pergunta do Saulo
-#
-# ui <- dashboardPage(
-#   dashboardHeader(title = "Análise de crédito"),
-#   dashboardSidebar(
-#     sidebarMenu(
-#       menuItem(
-#         "Informações gerais",
-#         tabName = "info_gerais",
-#         icon = icon("info-circle")
-#       )
-#     ),
-#     img(src = "logo.png", width = "70%", style = "display: block; margin: auto; margin-top: 200px;")
-#   ),
-#   dashboardBody(
-#     tabItems(
-#       tabItem(
-#         tabName = "info_gerais",
-#         fluidRow(
-#           column(
-#             width = 3,
-#             p("Mauris placerat sem efficitur nisi mattis imperdiet. Maecenas pharetra, est rutrum lobortis posuere, sapien mi feugiat nibh, et aliquam ante sapien in nisl. Curabitur mollis arcu aliquam dolor pretium semper. Sed condimentum purus in massa tristique, vitae vehicula quam placerat. Fusce odio massa, semper ut porta in, gravida sed nibh. In at eros id sem luctus hendrerit. Vivamus enim quam, condimentum sed elementum eget, ultrices commodo orci. Nulla sit amet diam quis ex pharetra rhoncus. Nam mollis lectus ac felis hendrerit mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta ut libero sed dictum. Cras auctor risus at arcu aliquam euismod. Aenean nec sodales lorem, sit amet elementum velit. Pellentesque eu erat eu sem tempor fringilla. Vivamus pulvinar sed.")
-#           ),
-#           column(
-#             width = 9,
-#             h2("Informações gerais"),
-#             hr(style = "border-top: 1px solid black;"),
-#             fluidRow(
-#               valueBoxOutput("numero_clientes", width = 4),
-#               valueBoxOutput("prop_clientes_bons", width = 4),
-#               valueBoxOutput("media_valor_emprestimo", width = 4)
-#             ),
-#             br(),
-#             fluidRow(
-#               tabBox(
-#                 width = 12,
-#                 tabPanel(
-#                   title = "Idade",
-#                   plotOutput("grafico_idade")
-#                 ),
-#                 tabPanel(
-#                   title = "Tipo de moradia",
-#                   plotOutput("grafico_moradia")
-#                 ),
-#                 tabPanel(
-#                   title = "Estado civil",
-#                   plotOutput("grafico_estado_civil")
-#                 )
-#               )
-#             )
-#           )
-#         )
-#       )
-#     )
-#   )
-# )
