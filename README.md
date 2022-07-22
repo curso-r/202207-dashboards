@@ -53,6 +53,11 @@ Fora do horário de aula ou monitoria:
 | [15-shinydashboard-layout.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//15-shinydashboard-layout.R)       |
 | [16-shinydashboard-menu.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//16-shinydashboard-menu.R)           |
 | [17-shinydashboard-elementos.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//17-shinydashboard-elementos.R) |
+| [18-bs4Dash.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//18-bs4Dash.R)                                   |
+| [19-observers.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//19-observers.R)                               |
+| [20-observeEvent.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//20-observeEvent.R)                         |
+| [21-reactvalues.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//21-reactvalues.R)                           |
+| [22-htmlwidgets.R](https://raw.githubusercontent.com/curso-r/202207-dashboards/main/pratica//22-htmlwidgets.R)                           |
 
 ## Material extra
 
@@ -72,6 +77,12 @@ relacionadas com o conteúdo da aula).
 |    4 | Layout         | [Shiny Widgets Gallery - novos inputs](http://shinyapps.dreamrs.fr/shinyWidgets/)                                     |
 |    4 | Layout         | [Pacote shiny themes](https://rstudio.github.io/shinythemes/)                                                         |
 |    4 | Layout         | [Pacote shinydashboard](https://rstudio.github.io/shinydashboard/)                                                    |
+|    5 | Layout         | [Demonstração do pacote bs4dash](https://dgranjon.shinyapps.io/bs4DashDemo/)                                          |
+|    5 | Layout         | [Demonstração do pacote shinyWidgets](http://shinyapps.dreamrs.fr/shinyWidgets/)                                      |
+|    5 | Layout         | [Pacote fresh](https://dreamrs.github.io/fresh/)                                                                      |
+|    5 | Layout         | [Vídeo: Shinydashboard, pacote fresh e CSS](https://www.youtube.com/watch?v=s9GKim52E4k)                              |
+|    5 | Layout         | [Shiny loaders](https://github.com/daattali/shinycssloaders)                                                          |
+|    6 | Livro          | [Engineering Shiny (livro)](https://engineering-shiny.org/)                                                           |
 
 ## Redes sociais da Curso-R
 
